@@ -1,5 +1,6 @@
 
 # Exercise 7: Husky Football 2015 Season
+setwd("~Documents/College/UW/INFO201/m8-dataframes/exercise-7/data")
 # Read in the Husky Football 2015 game data into a variable called `husky.games.2015`
 husky.games.2015 <- read.csv("huskies_2015.csv")
 
@@ -34,3 +35,4 @@ MostYardsScore <- function(games) {
 # Hint: Read in the dataset titled `huskies_2016.csv` and save it as a variable
 husky.games.2016 <- read.csv("huskies_2016.csv")
 season.yardage <- sum(husky.games.2016$rushing_yards + husky.games.2016$passing_yards)
+
