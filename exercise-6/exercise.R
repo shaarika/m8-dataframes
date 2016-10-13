@@ -39,5 +39,5 @@ MostPopular(1997)
 
 # Write a function `HowPopular` that takes in a name and a year, and returns
 # a sentence with how popular that name was in that year
-
+# HowPopular <- function()
 # How popular was the name 'Laura' in 1995
