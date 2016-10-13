@@ -23,10 +23,10 @@ colnames(expenditure)
 rownames(expenditure)
 
 # Create a column `category` that is equal to your rownames
-expenditure$category <- 
+expenditure$category <- rownames(expenditure)
 
 # How much money was spent on personal care in 1940?
-
+personal.care.exp <- (Personal Care)
 
 # How much money was spent on Food and Tobacco in 1960
 
